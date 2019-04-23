@@ -1,0 +1,160 @@
+body{
+    background: linear-gradient(235deg, #00A3FF 36.5%, #68C9FF 89.97%);
+}
+
+.column{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+.left, .middle, .right{
+    float: left;
+    width: 300px;
+    height: 600px;
+    margin: 40px 30px;
+    background-color: #fcfcfc;
+    border-radius: 20px;
+}
+
+.socialmedia{
+    position: fixed;
+    bottom: 0px;
+    width: 500px;
+    max-width: 600px;
+    height: 50px;
+    
+    background: #222222;
+    border-radius: 40px 40px 0px 0px;
+
+    left: 50%;
+    margin-left: -250px;
+}
+    
+.socialmedia li{
+    display: inline;
+    padding: 0px 15px;
+}
+
+.ellipse{
+    width: 200px;
+    height: 200px;
+    background-color: #333333;
+    border-radius: 100px;
+    margin: 50px 50px 30px 50px;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.thumbnail{
+    width: 100px;
+    height: 90px;
+    background-color: #eeeeee;
+    margin: 5px;
+    float: left;
+    object-fit: contain;
+}
+
+.content{
+    width: 220px;
+    height: 520px;
+    top: 50%;
+    margin-top: -260px;
+    left: 50%;
+    margin-left: -110px;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: #e4e4e4;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: roboto;
+    margin: 0px;
+    color: #202659;
+}
+
+h4{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: roboto;
+    margin: 0px;
+    color: #333;
+}
+
+.content h4{
+    text-align: left;
+    font-weight: medium;
+    font-size: 14px;
+    font-family: roboto;
+    margin: 0px;
+    color: #888;
+}
+
+.hover-blue:hover{ 
+  background-color: #00A3FF;
+  opacity: 0.5;
+}
+
+.hover-black:hover{ 
+  background-color: #222222;
+  opacity: 0.5;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: roboto;
+    margin: 0px;
+    color: #202659;
+}
+
+h6{
+    font-weight: 300;
+    font-size: 14px;
+    font-family: roboto;
+    margin: 0px;
+    color: #bbb;
+    display: inline;
+}
+
+p{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: roboto;
+    
+    width: 220px;
+    left: 50%;
+    margin-left: -110px;
+    margin-top: 0px;
+
+    position: relative;
+}
+
+input{
+    width: 220px;
+    border-radius: 5px;
+}
+
+.check{
+    max-width: 20px;
+}
+
+#kirim{
+    width: 200px;
+    height: 30px;
+    border-color: #00A3FF;
+    border-radius: 5px;
+    margin-left: 10px; 
+    background-color: #fff;
+}
