@@ -1,0 +1,55 @@
+/*---1. Newton Second Law---*/
+READ and STORE "m" with 600
+READ and STORE "a" with 2
+READ and SAVE "F" without any value
+
+CALCULATE "m" times "a"
+SET previous calculation result to "F"
+DISPLAY "F"
+
+
+/*---2. Tahun Kabisat---*/
+1.  Pilih tahun dengan sembarang angka (bilangan cacah)
+2.  Bagi tahun dengan angka 4 dan bagi tahun dengan 100,
+    jika pembagian dengan 4 tidak memiliki sisa pembagian
+    dan pembagian dengan 4 menghasilkan sisa.
+    Maka tahun tersebut merupakan tahun kabisat.
+3.  Bagi tahun dengan angka 4, angka 100, dan angka 400.
+    Jika semua pembagian tidak memiliki sisa pembagian.
+    Maka tahun tersebut merupakan tahun kabisat.
+//--------------------------------------------
+STORE "tahun" with any number
+
+IF "tahun" modulo by 4  equals to 0 AND "tahun" modulo by 100 not equal to 0
+    DISPLAY "Tahun kabisat"
+IF ELSE "tahun" modulo by 4 equalts to 0 AND "tahun" modulo by 100 equals to 0 AND "tahun" modulo by 400 equals to 0
+    DISPLAY "Tahun kabisat"
+ELSE
+    DISPLAY "Bukan tahun kabisat"
+
+
+/*---3. Laundry Day---*/
+1.  Hitung pakaian satu per satu
+2.  Jika sudah ada 20, maka mesin cuci siap dinyalakan
+//--------------------------------------------
+STORE "pakaian" with 0
+
+WHILE "pakaian" < 20
+    ADD "pakaian" by 1
+
+DISPLAY "Mesin cuci akan dinyalakan"
+
+/*---4. Periksa Kuku---*/
+1.  Periksa satu persatu kuku murid
+2.  Jika kuku panjang maka murid akan dihukum guru,
+    jika tidak maka siswa akan dipuji guru
+//---------------------------------------------
+READ "database murid" //contains 40 murid
+STORE "nomor" with 1
+
+WHILE "nomor" <= 51
+    IF "murid (nomor)" NOT "kuku panjang"
+        DO "Memuji siswa"
+    ELSE
+        DO "Menghukum siswa"
+    
