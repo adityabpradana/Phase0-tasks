@@ -41,4 +41,4 @@ case 1:
     break;
 }
 
-console.log(tanggal,bulan,tahun);
+console.log(tanggal+" "+bulan+" "+tahun);
