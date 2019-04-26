@@ -48,6 +48,9 @@ for (k=1; k<=100; k+=2) {
     if (k % 3 == 0) {
         console.log(k, " kelipatan 3");
     }
+    else{
+        console.log("");   
+    }
 }
 console.log();
 
@@ -55,11 +58,17 @@ for (k=1; k<=100; k+=5) {
     if (k % 6 == 0) {
         console.log(k, " kelipatan 6");
     }
+    else{
+        console.log("");   
+    }
 }
 console.log();
 
 for (k=1; k<=100; k+=9) {
     if (k % 10 == 0) {
         console.log(k, " kelipatan 10");
+    }
+    else{
+        console.log("");   
     }
 }
