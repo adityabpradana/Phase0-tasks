@@ -12,33 +12,33 @@ case 2:
 case 3:
     bulan = "Maret";
     break;
-case 5:
+case 4:
     bulan = "April";
     break;
-case 6:
+case 5:
     bulan = "Mei";
     break;
-case 7:
+case 6:
     bulan = "Juni";
     break;
-case 8:
+case 7:
     bulan = "Juli";
     break;
-case 9:
+case 8:
     bulan = "Agustus";
     break;
-case 10:
+case 9:
     bulan = "September";
     break;
-case 11:
+case 10:
     bulan = "Oktober";
     break;
-case 12:
+case 11:
     bulan = "November";
     break;
-case 1:
+case 12:
     bulan = "Desember";
     break;
 }
 
-console.log(tanggal,bulan,tahun);
+console.log(tanggal+" "+bulan+" "+tahun);
