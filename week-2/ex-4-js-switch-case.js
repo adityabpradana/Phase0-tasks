@@ -41,4 +41,8 @@ case 12:
     break;
 }
 
+<<<<<<< HEAD
 console.log(tanggal+" "+bulan+" "+tahun);
+=======
+console.log(tanggal+" "+bulan+" "+tahun);
+>>>>>>> a3a1641cdca14e1fb2967a805287d79ca37862a7
