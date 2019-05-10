@@ -49,7 +49,14 @@ function dataHandling2(input){
     }
     console.log(bulan);
 
-    console.log(input2[3].split("/").sort(function(a,b) {return a < b})); //Masih tidak tepat (butuh perbaikan)
+    var tanggalBaru = input2[3].split("/");
+
+
+    for(i=0; i < tanggalBaru.length; i++) {
+        tanggalBaru[i] = Number(tanggalBaru[i]);
+    }    
+
+    console.log(tanggalBaru.sort(function(a,b) {return a < b})); //Masih tidak tepat (butuh perbaikan)
 
     console.log(tanggalLahir.join("-"))
 
