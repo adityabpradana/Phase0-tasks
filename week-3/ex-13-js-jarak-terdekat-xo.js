@@ -32,11 +32,6 @@ function targetTerdekat(arr) {
     //Mengurutkan jarak dari yg terdekat
     jarak.sort();
 
-    if (jarak[0] > 0){
-    } else {
-        jarak[0] = 0;
-    }
-
     return jarak[0];
     }
 

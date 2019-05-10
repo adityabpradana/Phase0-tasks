@@ -49,14 +49,22 @@ function dataHandling2(input){
     }
     console.log(bulan);
 
+<<<<<<< HEAD
     var tanggalBaru = input2[3].split("/");
+=======
+   var tanggalBaru = input2[3].split("/");
+>>>>>>> 0e46a07c7690161c8723fda1ccb9abc72ce95cb2
 
 
     for(i=0; i < tanggalBaru.length; i++) {
         tanggalBaru[i] = Number(tanggalBaru[i]);
     }    
 
+<<<<<<< HEAD
     console.log(tanggalBaru.sort(function(a,b) {return a < b})); //Masih tidak tepat (butuh perbaikan)
+=======
+    console.log(tanggalBaru.sort(function(a,b) {return a < b}));
+>>>>>>> 0e46a07c7690161c8723fda1ccb9abc72ce95cb2
 
     console.log(tanggalLahir.join("-"))
 
